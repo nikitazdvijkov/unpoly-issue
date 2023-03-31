@@ -1,0 +1,41 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: sans;
+}
+h1, h2, h3 {
+  margin-top: 0;
+  padding-top: 0;
+}
+nav, footer {
+  background-color: #dddddd;
+}
+nav, main, footer {
+  padding: 1rem;
+}
+nav > a {
+  margin-right: 1rem;
+  text-decoration: none;
+}
+nav > a > strong {
+  font-size: 1.1em;
+}
+label, input {
+  display: block;
+}
+label {
+  margin-bottom: 1rem;
+}
+input[type=text] {
+  margin-top: 0.5rem;
+}
+.field-error {
+  display: none;
+  color: red;
+}
+label.invalid > .field-error {
+  display: block;
+}
+label.invalid > input[type=text] {
+  border-color: red;
+}
